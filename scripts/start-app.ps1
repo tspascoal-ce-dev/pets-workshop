@@ -33,7 +33,13 @@ $pythonProcess = Start-Process python -ArgumentList "app.py" -PassThru -NoNewWin
 Write-Host "Starting client (Astro)..."
 Set-Location ..\client -ErrorAction Stop
 npm install
-$clientProcess = Start-Process npm -ArgumentList "run", "dev", "--", "--no-clearScreen" -PassThru -NoNewWindow
+if ($IsWindows) {
+    $npcCmd = "npm.cmd"
+} else {
+    $npcCmd = "npm"
+}
+
+$clientProcess = Start-Process "$npcCmd" -ArgumentList "run", "dev", "--", "--no-clearScreen" -PassThru -NoNewWindow
 
 # Sleep for 5 seconds
 Start-Sleep -Seconds 5
