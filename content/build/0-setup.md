@@ -12,15 +12,17 @@ To complete this workshop you will need to clone a repository with a copy of the
 
 TODO: warn users NOT to use EMU accounts?
 
-1. [] Click on Copilot icon on VS Code status bar (top bottom right)
+1. [] Create a GitHub Account if you don't already have one
+2. [] Open Visual Studio Code
+3. [] Click on Copilot icon on VS Code status bar (top bottom right)
 
 ![Copilot Status Bar](0-copilot-status-bar.png)
 
-2. [] Click on **Set up Copilot** blue button
-4. [] Click on **Sign In** blue button in modal window that opened
-5. [] Enter your login and password (and MFA if asked to) on the browser that was automatically opened
-6. [] Click **open**  browser asks for the confirmation (**This site is trying to open Visual Studio Code.**)
-7. [] After Copilot is setup you should now have a **Walktrhoug: GitHub Copilot Chat** open tab in Visual Studio Code
+4. [] Click on **Set up Copilot** blue button
+5. [] Click on **Sign In** blue button in modal window that opened
+6. [] Enter your login and password (and MFA if asked to) on the browser that was automatically opened
+7. [] Click **open**  browser asks for the confirmation (**This site is trying to open Visual Studio Code.**)
+8. [] After Copilot is setup you should now have a **Walktrhoug: GitHub Copilot Chat** open tab in Visual Studio Code
 
 ## Clone lab repository
 
