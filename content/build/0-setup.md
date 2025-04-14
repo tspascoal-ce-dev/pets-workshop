@@ -19,42 +19,43 @@ TODO: warn users NOT to use EMU accounts?
 ![Copilot Status Bar](./images/0-copilot-status-bar.png)
 
 4. [] Click on **Set up Copilot** blue button
-5. [] Click on **Sign In** blue button in modal window that opened
-6. [] Enter your login and password (and MFA if asked to) on the browser that was automatically opened
+5. [] Click on **Sign In to use Copilot for Free** blue button
+6. [] A browser will automatically open, enter your GitHub login and password (and MFA if asked to)
 7. [] Click **open**  browser asks for the confirmation (**This site is trying to open Visual Studio Code.**)
-8. [] After Copilot is setup you should now have a **Walktrhoug: GitHub Copilot Chat** open tab in Visual Studio Code
+8. [] After Copilot is setup you should now have a **Walkthrough: GitHub Copilot Chat** open tab in Visual Studio Code
+
+We are now ready to start working on our code with the help of Copilot.
 
 ## Clone lab repository
 
-Let's clone the repository you'll use for your workshop.
+Let's clone the repository you'll use for the lab.
 
-1. [] Open Visual Studio Code
-2. [] Click on the Source Control icon on the left sidebar
+1. [] Click on the Source Control icon on the left sidebar
 
 ![Source control icon](./images/0-source-control-icon.png)
 
-3. [] Click on **Clone Repository** button
-4. [] Type `https://github.com/github-samples/pets-workshop`   TODO: fix URL
-5. [] Select the repository destination folder (suggestion: use the suggested one)
+2. [] Click on **Clone Repository** button
+3. [] Type `https://github.com/github-samples/pets-workshop`   TODO: fix URL
+4. [] Select the repository destination folder (suggestion: use the one is automatically shown. The user home folder)
     - Note: The repository will be cloned to **<selected folder>/pets-workshop**
-6. [] Click **Open** button when asked if you **Would like to open the cloned repository?**
-7. [] Click the `Yes, I trust the authors" button when asked.
+5. [] Click **Open** button when asked if you **Would like to open the cloned repository?**
+6. [] Click the **Yes, I trust the authors** button when asked.
 
 The code is now opened in Visual Studio, feel free to take a look at it or skip to the next section to start the app.
 
 ## Start the app
 
-1. [] Click on **...** on the menu bar at the top and then select **Terminal -> New Terminal**
+1. [] Click on **...** (three dots) on the menu bar at the top and then select **Terminal -> New Terminal**
 2. [] Start the application by running the following command on the terminal:
 
     ```pwsh
     .\scripts\start-app.ps1
     ```
 
-The startup script will install all dependencies and start two applications:
+The startup script will install dependencies and start two applications:
 
-- The backend Flask app on **http://localhost:5100**. You can see a list of dogs by opening the the url `http://localhost:5100/api/dogs`
-- The frontend Astro/Svelte app on **http://localhost:4321**. You can see the by opening that URL.
+- The backend Flask app on ++http://localhost:5100++. You can see a list of dogs by opening the the url ++http://localhost:5100/api/dogs++
+- The frontend Astro/Svelte app on ++http://localhost:4321++. You can see the by opening that URL.
 
 Try it now, open a browser and navigate to the links provided above.
 
