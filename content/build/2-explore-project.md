@@ -15,18 +15,22 @@ GitHub Copilot Chat has a set of available [chat participants][chat-participants
 > [!NOTE]
 > This exercise doesn't provide specific prompts to type, as part of the learning experience is to discover how to interact with Copilot. Feel free to talk in natural language, describing what you're looking for or need to accomplish.
 
-1. []  Return to your IDE with the project open.
-2. []  Close any tabs you may have open in your IDE to ensure the context for Copilot chat is empty.
+1. []  Return Visual Studio Code with the project open.
+2. []  Close any tabs you may have open to ensure the context for Copilot chat is empty.
 3. []  Open GitHub Copilot Chat.
+   > [!Hint] You can open Chat by clicking on GitHub Copilot icon at the top bar and then choose **Open Chat** or use <kbd>Control</kbd>+<kbd>Alt</kbd>+<kbd>I</kbd>
 4. []  Select the **+** icon towards the top of Copilot chat to begin a new chat.
 5. []  Type **@workspace** in the chat prompt window and hit <kbd>tab</kbd> to select or activate it, then continue by asking Copilot about your project. You can ask what technologies are in use, what the project does, where functionality resides, etc.
+  > [!Knowledge] TODO: If it says "Copilot is asking permission to access your Copilot license say yes and follows the steps
 6. []  Spend a few minutes exploring to find the answers to the following questions:
     - Where's the database the project uses?
     - What files are involved in listing dogs?
 
+> [!Knowledge] Did you noticed that when files were referenced, there is a icon in front of the name? if you click on it, it will open the file on the editor.
+
 ## Summary and next steps
 
-You've explored context in GitHub Copilot, which is key to generating quality suggestions. You saw how you can use chat participants to help guide GitHub Copilot, and how with natural language you can explore the project. Let's see how we can provide even more context to Copilot chat through the use of [Copilot instructions][walkthrough-next].
+You've explored context in GitHub Copilot, which is key to generating quality suggestions. You saw how you can use chat participants to help guide GitHub Copilot, and how with natural language you can explore the project. Let's see how we can provide even more context to Copilot chat through the use of **Copilot instructions**.
 
 ## Resources
 
@@ -39,5 +43,3 @@ You've explored context in GitHub Copilot, which is key to generating quality su
 [copilot-cookbook]: https://docs.github.com/en/copilot/copilot-chat-cookbook
 [copilot-extensions]: https://docs.github.com/en/copilot/using-github-copilot/using-extensions-to-integrate-external-tools-with-copilot-chat
 [copilot-marketplace]: https://github.com/marketplace?type=apps&copilot_app=true
-[walkthrough-previous]: ./1-add-endpoint.md
-[walkthrough-next]: ./3-copilot-instructions.md

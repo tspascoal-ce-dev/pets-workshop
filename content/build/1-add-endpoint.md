@@ -28,9 +28,9 @@ Let's build our new route in our Flask backend with the help of code completion.
 > [!IMPORTANT]
 > For this exercise, **DO NOT** copy and paste the code snippet provided, but rather type it manually. This will allow you to experience code completion as you would if you were coding back at your desk. You'll likely see you only have to type a few characters before GitHub Copilot begins suggesting the rest.
 
-1. []  Return to your IDE with the project open.
-2. []  Open **server/app.py**.
-3. []  Locate the comment which reads `## HERE`, which should be at line 68.
+1. []  Return to Visual Studio Code.
+2. []  Open **server/app.py** file.
+3. []  Locate the comment which reads **## HERE**, which should be at line 68.
 4. []  Delete the comment to ensure there isn't any confusion for Copilot, and leave your cursor there.
 5. []  Begin adding the code to create the route to return all breeds from an endpoint of **api/breeds** by typing the following:
 
@@ -39,6 +39,7 @@ Let's build our new route in our Flask backend with the help of code completion.
     ```
 
 6. []  Once you see the full function signature, select <kbd>Tab</kbd> to accept the code suggestion.
+   > [!HINT] You can also use <kbd>control</kbd><kbd>Right Arrow</kbd> to accept a single word at a time.
 7. []  If it didn't already, code completion should then suggest the remainder of the function signature; just as before select <kbd>Tab</kbd> to accept the code suggestion.
     
     The code generated should look a little like this:
@@ -64,14 +65,14 @@ Let's build our new route in our Flask backend with the help of code completion.
 > [!IMPORTANT]
 > Because LLMs are probabilistic, not deterministic, the exact code generated can vary. The above is a representative example. If your code is different, that's just fine as long as it works!
 
-8. Add a comment to the newly created function. To do this, place your cursor inside the function (anywhere between the lines **def get_breeds...** and **return jsonify...**). Then, press <kbd>Ctl</kbd>+<kbd>I</kbd> (or <kbd>cmd</kbd>+<kbd>I</kbd> on a Mac) to open the editor inline chat. In the input box, type `/doc`. (You can optionally provide additional details, but it's not required). This will prompt GitHub Copilot to generate a documentation comment for the function. The suggested comment will appear inline in the code (highlighted in green). Click **Accept** to apply the comment to your code, or click **Close** to discard the suggestion. You just used a slash command, a shortcut to streamline a task, these commands eliminate the need for verbose prompts.
+8. [] Add a comment to the newly created function. To do this, place your cursor inside the function (anywhere between the lines **def get_breeds...** and **return jsonify...**). Then, press <kbd>Ctl</kbd>+<kbd>I</kbd> (or <kbd>cmd</kbd>+<kbd>I</kbd> on a Mac) to open the editor inline chat. In the input box, type **/doc**. (You can optionally provide additional details, but it's not required). This will prompt GitHub Copilot to generate a documentation comment for the function. The suggested comment will appear inline in the code (highlighted in green). Click **Accept** to apply the comment to your code, or click **Close** to discard the suggestion. You just used a slash command, a shortcut to streamline a task, these commands eliminate the need for verbose prompts.
 9. []  **Save** the file.
 
 ## Validate the endpoint
 
 With the code created and saved, let's quickly validate the endpoint to ensure it works.
 
-1. []  Navigate to **http://localhost:5100/api/breeds** to validate the route. You should see JSON displayed which contains the list of breeds!
+1. []  Navigate to ++http://localhost:5100/api/breeds++ on the browser to validate the new route. You should see JSON displayed which contains the list of breeds!
 
 ## Summary and next steps
 
@@ -84,7 +85,6 @@ You've added a new endpoint with the help of GitHub Copilot! You saw how Copilot
 - [Prompt crafting][prompt-crafting]
 
 
-[breeds-endpoint]: http://localhost:5100/api/breeds
 [client-code]: /client/
 [copilot-suggestions]: https://docs.github.com/en/copilot/using-github-copilot/getting-code-suggestions-in-your-ide-with-github-copilot
 [flask-routing]: https://flask.palletsprojects.com/en/stable/quickstart/#routing
@@ -92,5 +92,3 @@ You've added a new endpoint with the help of GitHub Copilot! You saw how Copilot
 [prompt-crafting]: https://code.visualstudio.com/docs/copilot/prompt-crafting
 [server-code]: /server/
 [vscode-copilot]: https://code.visualstudio.com/docs/copilot/ai-powered-suggestions
-[walkthrough-previous]: ./0-setup.md
-[walkthrough-next]: ./2-explore-project.md

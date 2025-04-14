@@ -22,15 +22,15 @@ Here are some guidelines to consider when creating a Copilot instructions file:
     - required assets to be generated (such as unit tests) and where they should be placed.
     - any language specific rules such as:
         - utilize [type hints][type-hints] in Python.
-        - use [arrow functions][arrow-functions] rather than the `function` keyword in TypeScript.
+        - use [arrow functions][arrow-functions] rather than the **function** keyword in TypeScript.
 - If you notice GitHub Copilot consistently provides an unexpected suggestion (e.g. using class components for React), add those notes to the instructions file.
 
 ## Create a Copilot instructions file
 
 Let's create a Copilot instructions file. We'll start by asking Copilot to generate a block of code, then add the instructions file, then ask the same question again to see the changes.
 
-1. []  Return to your IDE with your project open.
-2. []  Close any tabs you may have open in your IDE to ensure Copilot chat has an empty context.
+1. []  Return to Visual Studio Code.
+2. []  Close any tabs you may have open in your VS Code to ensure Copilot chat has an empty context.
 3. []  Select the **+** icon towards the top of Copilot chat to begin a new chat.
 4. []  Open Copilot Chat and send the following prompt:
 
@@ -95,7 +95,7 @@ Whenever you make a call to Copilot chat, the references dialog indicates all fi
 
 ## Summary and next steps
 
-Copilot instructions improves the quality of suggestions, and ensures better alignment with the desired practices you have in place. With the groundwork in place, let's [add new functionality to our website][walkthrough-next]!
+Copilot instructions improves the quality of suggestions, and ensures better alignment with the desired practices you have in place. With the groundwork in place, let's **add new functionality to our website**
 
 ## Resources
 
@@ -104,5 +104,3 @@ Copilot instructions improves the quality of suggestions, and ensures better ali
 [arrow-functions]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
 [custom-instructions]: https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot
 [type-hints]: https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html
-[walkthrough-previous]: ./2-explore-project.md
-[walkthrough-next]: ./4-add-feature.md

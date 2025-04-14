@@ -57,7 +57,7 @@ The startup script will install dependencies and start two applications:
 - The backend Flask app on **http://localhost:5100**. You can see a list of dogs by opening the the url ++http://localhost:5100/api/dogs++
 - The frontend Astro/Svelte app on ++http://localhost:4321++. You can see the by opening that URL.
 
-Try it now, open a browser and navigate to the links provided above.
+[] Try it now, open a browser and navigate to the links provided above.
 
 ## Configuring Copilot
 
