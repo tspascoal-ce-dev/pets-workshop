@@ -16,7 +16,7 @@ TODO: warn users NOT to use EMU accounts?
 2. [] Open Visual Studio Code
 3. [] Click on Copilot icon on VS Code status bar (top bottom right)
 
-![Copilot Status Bar](0-copilot-status-bar.png)
+![Copilot Status Bar](images/0-copilot-status-bar.png)
 
 4. [] Click on **Set up Copilot** blue button
 5. [] Click on **Sign In** blue button in modal window that opened
