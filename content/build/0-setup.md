@@ -16,7 +16,7 @@ TODO: warn users NOT to use EMU accounts?
 2. [] Open Visual Studio Code
 3. [] Click on Copilot icon on VS Code status bar (top bottom right)
 
-![Copilot Status Bar](images/0-copilot-status-bar.png)
+![Copilot Status Bar](./images/0-copilot-status-bar.png)
 
 4. [] Click on **Set up Copilot** blue button
 5. [] Click on **Sign In** blue button in modal window that opened
@@ -31,7 +31,7 @@ Let's clone the repository you'll use for your workshop.
 1. [] Open Visual Studio Code
 2. [] Click on the Source Control icon on the left sidebar
 
-![Source control icon](images/0-source-control-icon.png)
+![Source control icon](./images/0-source-control-icon.png)
 
 3. [] Click on **Clone Repository** button
 4. [] Type `https://github.com/github-samples/pets-workshop`   TODO: fix URL
