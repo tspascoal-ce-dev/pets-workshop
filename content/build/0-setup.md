@@ -14,11 +14,11 @@ TODO: warn users NOT to use EMU accounts?
 
 1. [] Create a GitHub Account if you don't already have one
 2. [] Open Visual Studio Code
-3. [] Click on Copilot icon on VS Code status bar (top bottom right)
+3. [] Click on Copilot icon on VS Code top bar
 
-![Copilot Status Bar](./images/0-copilot-status-bar.png)
+![Copilot icon](./images/0-copilot-icon.png)
 
-4. [] Click on **Set up Copilot** blue button
+4. [] Click on **Open Chat**
 5. [] Click on **Sign In to use Copilot for Free** blue button
 6. [] A browser will automatically open, enter your GitHub login and password (and MFA if asked to)
 7. [] Click **open**  browser asks for the confirmation (**This site is trying to open Visual Studio Code.**)

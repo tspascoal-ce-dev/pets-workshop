@@ -81,22 +81,42 @@ And
 5. []  Confirm the functionality works as expected, then select **Keep** to accept all the changes.
 6. Optional: Disable Auto Save by unselecting **File** > **Auto Save**.
 
+> [!HINT]
+> If you are stuck or just want to see alternatives way of prompting we have provided two prompts in the **.github/prompts** folder
+> A simple one, that is simple, with some ambiguity that leaves some space for interpreation but it gets the job done. Another one that is more verbose and leaves not a lot of space for interpretation.
+
 ## Summary
 
 You've worked with GitHub Copilot to add new features to the website - the ability to filter the list of dogs. With the help of Copilot Edits, you updated multiple files across the project, and iteratively built the desired functionality.
 
 ## Workshop review
 
-Over the course of the workshop you explore the core functionality of GitHub Copilot. You saw how to use code completion to get inline suggestions, chat participants to explore your project, Copilot instructions to add context, and Copilot Edits to update multiple files.
+Over the course of the workshop you explore the core functionality of GitHub Copilot. You saw how to use code completion to get inline suggestions, chat participants to explore your project, Copilot instructions to add context, and Copilot Edits to update multiple files. But there is a lot more in GitHub Copilot (just to name a few):
+- [Agent mode][copilot-agent]
+- [MCP Servers support][MCP-server]
+- [Extend Copilot][Extensibility-VS-Code]
+- Copilot features available in GitHub
+  - [GitHub Copilot code review][code-review]
+  - [Extensions][copilot-extensions]
+  - [Answers about issues, PRs, discussions, files, commits, etc][asking-github-copilot-questions]
 
 There is no one right way to use GitHub Copilot. Continue to explore and try different prompts to discover what works best for your workflow and how GitHub Copilot can aid your productivity.
+
+We have a bonus section for you, if you want to continue your explorations.
 
 ## Resources
 
 - [Asking GitHub Copilot questions in your IDE][copilot-ask]
 - [Copilot Chat cookbook][copilot-cookbook]
 - [Copilot Edits][copilot-edits]
+- [Copilo Agent][copilot-agent]
 
 [copilot-ask]: https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/asking-github-copilot-questions-in-your-ide
 [copilot-cookbook]: https://docs.github.com/en/copilot/copilot-chat-cookbook
 [copilot-edits]: https://code.visualstudio.com/docs/copilot/copilot-edits
+[copilot-agent]: https://code.visualstudio.com/docs/copilot/chat/chat-agent-mode
+[MCP-server]: https://code.visualstudio.com/docs/copilot/chat/mcp-servers
+[Extensibility-VS-Code]: https://code.visualstudio.com/docs/copilot/copilot-extensibility-overview
+[code-review]: https://docs.github.com/en/copilot/using-github-copilot/code-review/using-copilot-code-review?tool=webui
+[copilot-extensions]: https://github.com/features/copilot/extensions
+[asking-github-copilot-questions]: https://docs.github.com/en/enterprise-cloud@latest/copilot/using-github-copilot/copilot-chat/asking-github-copilot-questions-in-github
