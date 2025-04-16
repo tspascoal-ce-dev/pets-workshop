@@ -73,6 +73,12 @@ Let's build our new route in our Flask backend with the help of code completion.
 With the code created and saved, let's quickly validate the endpoint to ensure it works.
 
 1. []  Navigate to ++http://localhost:5100/api/breeds++ on the browser to validate the new route. You should see JSON displayed which contains the list of breeds!
+2. [] Let's commit the changes locally, click on the Source control icon on the left sidebar
+3. [] Click on the **+** icon so stage **server/app.py**
+4. [] On the commit message box click on the Star icon, Copilot is going to create the commit message for you
+5. [] Click on the **Commit** green button to commit locally if you are happy with the commit message, otherwise adjust the message before commiting.
+
+
 
 ## Summary and next steps
 
