@@ -10,6 +10,8 @@ To complete this workshop you will need to clone a repository with a copy of the
 > [!IMPORTANT]
 > For this lab you need a [GitHub account](https://docs.github.com/en/get-started/learning-about-github/types-of-github-accounts), if you don't have one no worries, you can create a personal account for free. Create your account in the [GitHub sign up page](https://github.com/signup).
 
+TODO: adapt the login IF we are going to use the provided licenses instead relying on BYOL/Copilot Free
+
 1. [] Create a GitHub Account if you don't already have one
 2. [] Open Visual Studio Code
 3. [] Click on Copilot icon on bottom bar (right bottom)
