@@ -10,16 +10,14 @@ To complete this workshop you will need to clone a repository with a copy of the
 > [!IMPORTANT]
 > For this lab you need a [GitHub account](https://docs.github.com/en/get-started/learning-about-github/types-of-github-accounts), if you don't have one no worries, you can create a personal account for free. Create your account in the [GitHub sign up page](https://github.com/signup).
 
-TODO: warn users NOT to use EMU accounts?
-
 1. [] Create a GitHub Account if you don't already have one
 2. [] Open Visual Studio Code
-3. [] Click on Copilot icon on VS Code top bar
+3. [] Click on Copilot icon on bottom bar (right bottom)
 
 ![Copilot icon](./images/0-copilot-icon.png)
 
-4. [] Click on **Open Chat**
-5. [] Click on **Sign In to use Copilot for Free** blue button
+4. [] Click on **Set up Copilot* blue button
+5. [] Click on **Sign In** blue button on the modal window
 6. [] A browser will automatically open, enter your GitHub login and password (and MFA if asked to)
 7. [] Click **open**  browser asks for the confirmation (**This site is trying to open Visual Studio Code.**)
 8. [] After Copilot is setup you should now have a **Walkthrough: GitHub Copilot Chat** open tab in Visual Studio Code
@@ -59,8 +57,6 @@ The startup script will install dependencies and start two applications:
 
 [] Try it now, open a browser and navigate to the links provided above.
 
-## Configuring Copilot
-
 ## Summary and next steps
 
-You've now cloned the repository you'll use for this workshop and have your IDE setup! Next let's **add a new endpoint to the server**
+You've now cloned the repository you'll use for this workshop and have GitHub Copilot setup! Next let's **add a new endpoint to the server**
