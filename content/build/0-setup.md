@@ -35,7 +35,7 @@ Let's clone the repository you'll use for the lab.
 ![Source control icon](./images/0-source-control-icon.png)
 
 2. [] Click on **Clone Repository** button
-3. [] Type `https://github.com/github-samples/pets-workshop`   TODO: fix URL
+3. [] Type `https://github.com/tspascoal-ce-dev/pets-workshop`   TODO: fix final URL
 4. [] Select the repository destination folder (suggestion: use the one is automatically shown. The user home folder)
     - Note: The repository will be cloned to **<selected folder>/pets-workshop**
 5. [] Click **Open** button when asked if you **Would like to open the cloned repository?**
