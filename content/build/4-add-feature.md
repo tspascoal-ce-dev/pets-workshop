@@ -73,7 +73,7 @@ And
 2. []  Open the page at ++http://localhost:4321++ to see the updates!
 3. []  Run the Python tests by running the following commands (you might want to open a new terminal)
    - `./venv/Scripts/Activate.ps1`
-   - `python -m unittest discover -s server` ensure all tests pass (all 3 tests should pass)
+   - `python -m unittest discover -s server` ensure all tests pass (3 tests should pass)
 4. []  If any changes are needed, explain the required updates to GitHub Copilot and allow it to generate the new code.
 
 > [!IMPORTANT]
