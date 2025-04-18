@@ -22,24 +22,35 @@ if ($IsWindows) {
     & bash -c "source ./venv/bin/activate"
 }
 
-pip install -r server/requirements.txt
 Set-Location server -ErrorAction Stop
+pip install -r requirements.txt
+Set-Location ..
 $env:FLASK_DEBUG = 1
 $env:FLASK_PORT = 5100
 
+
 # Start Python server
-$pythonProcess = Start-Process python -ArgumentList "app.py" -PassThru -NoNewWindow
+$pythonProcess = Start-Process python `
+    -WorkingDirectory (Join-Path $PSScriptRoot "..\server") `
+    -ArgumentList "app.py" `
+    -PassThru `
+    -NoNewWindow
 
 Write-Host "Starting client (Astro)..."
-Set-Location ..\client -ErrorAction Stop
+Set-Location client -ErrorAction Stop
 npm install
+cd ..
 if ($IsWindows) {
     $npcCmd = "npm.cmd"
 } else {
     $npcCmd = "npm"
 }
 
-$clientProcess = Start-Process "$npcCmd" -ArgumentList "run", "dev", "--", "--no-clearScreen" -PassThru -NoNewWindow
+$clientProcess = Start-Process "$npcCmd" `
+    -WorkingDirectory (Join-Path $PSScriptRoot "..\client") `
+    -ArgumentList "run", "dev", "--", "--no-clearScreen" `
+    -PassThru `
+    -NoNewWindow
 
 # Sleep for 5 seconds
 Start-Sleep -Seconds 5
