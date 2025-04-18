@@ -18,10 +18,11 @@ GitHub Copilot Chat has a set of available [chat participants][chat-participants
 1. []  Return Visual Studio Code with the project open.
 2. []  Close any tabs you may have open to ensure the context for Copilot chat is empty.
 3. []  Open GitHub Copilot Chat.
-   > [!Hint] You can open Chat by clicking on GitHub Copilot icon at the top bar and then choose **Open Chat** or use <kbd>Control</kbd>+<kbd>Alt</kbd>+<kbd>I</kbd>
+   > [!Hint]
+   > You can open Chat by clicking on GitHub Copilot icon at the top bar and then choose **Open Chat** or use <kbd>Control</kbd>+<kbd>Alt</kbd>+<kbd>I</kbd>
 4. []  Select the **+** icon towards the top of Copilot chat to begin a new chat.
 5. []  Type **@workspace** in the chat prompt window and hit <kbd>tab</kbd> to select or activate it, then continue by asking Copilot about your project. You can ask what technologies are in use, what the project does, where functionality resides, etc.
-  > [!Knowledge] TODO: If it says "Copilot is asking permission to access your Copilot license say yes and follows the steps
+> [!Knowledge] TODO: If it says "Copilot is asking permission to access your Copilot license say yes and follows the steps
 6. []  Spend a few minutes exploring to find the answers to the following questions:
     - Where's the database the project uses?
     - What files are involved in listing dogs?

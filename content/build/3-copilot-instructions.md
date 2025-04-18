@@ -8,7 +8,7 @@ Before we begin larger updates to the site with the help of Copilot, we want to 
 
 ## Overview of Copilot instructions
 
-Copilot instructions is a markdown file is placed in your **.github** folder. It becomes part of your project, and in turn to all contributors to your codebase. You can use this file to indicate various coding standards you wish to follow, the technologies your project uses, or anything else important for Copilot Chat to understand when generating suggestions.
+Copilot instructions is a markdown file is placed in your **.github** folder. It becomes part of your project, and in turn is available to all contributors to your codebase. You can use this file to indicate various coding standards you wish to follow, the technologies your project uses, or anything else important for Copilot Chat to understand when generating suggestions.
 
 > [!IMPORTANT]
 > The *copilot-instructions.md* file is included in **every** call to GitHub Copilot Chat, and will be part of the context sent to Copilot. Because there is always a limited set of tokens an LLM can operate on, a large Copilot instructions file can obscure relevant information. As such, you should limit your Copilot instructions file to project-wide information, providing an overview of what you're building and how you're building it. If you need to provide more specific information for particular tasks, you can create [prompt files](https://docs.github.com/en/copilot/customizing-copilot/adding-repository-custom-instructions-for-github-copilot?tool=vscode#about-prompt-files).
@@ -17,7 +17,7 @@ Here are some guidelines to consider when creating a Copilot instructions file:
 
 - The Copilot instructions file becomes part of the project, meaning it will apply to every developer; anything indicated in the file should be globally applicable.
 - The file is markdown, so you can take advantage of that fact by grouping content together to improve readability.
-- Provide overview of **what** you are building and **how** you are building it, including:
+- Provide an overview of **what** you are building and **how** you are building it, including:
     - languages, frameworks and libraries in use.
     - required assets to be generated (such as unit tests) and where they should be placed.
     - any language specific rules such as:
@@ -44,7 +44,7 @@ Let's create a Copilot instructions file. We'll start by asking Copilot to gener
 > Because LLMs are probabilistic rather than deterministic, the exact code will vary.
 
 6. []  Create a new file in the **.github** folder called **copilot-instructions.md**.
-7. []  Add the markdown to the file necessary which provides information about the project structure and requirements:
+7. []  Add the following markdown to the file, which provides information about the project structure and requirements:
 
     ```markdown
     # Dog shelter

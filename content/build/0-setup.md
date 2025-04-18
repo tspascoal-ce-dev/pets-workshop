@@ -14,11 +14,12 @@ TODO: adapt the login IF we are going to use the provided licenses instead relyi
 
 1. [] Create a GitHub Account if you don't already have one
 2. [] Open Visual Studio Code
-3. [] Click on Copilot icon on bottom bar (right bottom)
+3. [] Click on Copilot icon on top bar (left side next to the search input box)
 
 ![Copilot icon](./images/0-copilot-icon.png)
 
-4. [] Click on **Set up Copilot* blue button
+4. [] Click on **Open Chat** option
+5. [] If there is a login button on the chat window, click it, otherwise type something and press enter in the chat input box to force the login window
 5. [] Click on **Sign In** blue button on the modal window
 6. [] A browser will automatically open, enter your GitHub login and password (and MFA if asked to)
 7. [] Click **open**  browser asks for the confirmation (**This site is trying to open Visual Studio Code.**)
@@ -35,8 +36,8 @@ Let's clone the repository you'll use for the lab.
 ![Source control icon](./images/0-source-control-icon.png)
 
 2. [] Click on **Clone Repository** button
-3. [] Type `https://github.com/tspascoal-ce-dev/pets-workshop`   TODO: fix final URL
-4. [] Select the repository destination folder (suggestion: use the one is automatically shown. The user home folder)
+3. [] Type `https://github.com/tspascoal-ce-dev/pets-workshop` and press enter.  TODO: fix final URL
+4. [] Select the repository destination folder (suggestion: use the one is automatically shown. The user home folder) by clicking in **Select as Repository Destination** button.
     - Note: The repository will be cloned to **<selected folder>/pets-workshop**
 5. [] Click **Open** button when asked if you **Would like to open the cloned repository?**
 6. [] Click the **Yes, I trust the authors** button when asked.
@@ -45,7 +46,7 @@ The code is now opened in Visual Studio, feel free to take a look at it or skip 
 
 ## Start the app
 
-1. [] Click on **...** (three dots) on the menu bar at the top and then select **Terminal -> New Terminal**
+1. [] Click on **...** (three dots, or **Terminal** if already visible) on the menu bar at the top and then select **Terminal -> New Terminal**
 2. [] Start the application by running the following command on the terminal:
 
     ```pwsh
@@ -57,7 +58,7 @@ The startup script will install dependencies and start two applications:
 - The backend Flask app on **http://localhost:5100**. You can see a list of dogs by opening the the url ++http://localhost:5100/api/dogs++
 - The frontend Astro/Svelte app on ++http://localhost:4321++. You can see the by opening that URL.
 
-[] Try it now, open a browser and navigate to the links provided above.
+3. [] Try it now, open a browser and navigate to the links provided above.
 
 ## Summary and next steps
 

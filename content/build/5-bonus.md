@@ -32,8 +32,8 @@ In this section, you will use Copilot's agent mode to add themes to the Tailspin
 6. [] Click **Add Context...**
 7. [] Select **Prompts** from the list 
 8. [] From the list of available prompts select **fun-add-themes**
-9. The agent mode will take it's theme, since it search by itself the relevant files to modify, and then do multiple passes including talking with himself to refine the task at hand
-10. [] While Agent is doing it's thing, expand the **Used 1 reference** (first line after copilot response in the chat window) and notice it mentions the prompt you selected, click on the name of the prompt and examine the content of the prompt that was used.
+9. The agent mode will take it's time, since it searches by itself the relevant files to modify, and then does multiple passes including talking with himself to refine the task at hand
+10. [] While Agent is doing it's thing, expand the **Used 2 references** (first line after copilot response in the chat window) and notice it mentions the prompt you selected, click on the name of the prompt and examine the content of the prompt that was used.
 11. [] When the agent is done (you no longer see any spinners and the thumb up/down icons will be visible), 
  open a browser to see the results
     - Open the page at ++http://localhost:4321++ to see the updates! 
@@ -61,7 +61,9 @@ You'll also notice there aren't step-by-step instructions here. You've already s
 Here's some ideas of how you could continue to grow and build upon what you've done:
 
 - Return to the API endpoints you updated previously in Flask and add unit tests.
-  > [!Knowledge] The **/tests** slash command can give you a little hand or you can also do it edit mode.
+> [!Knowledge] 
+> The **/tests** slash command can give you a little hand or you can also do it edit mode.
+
 - Add paging support to the full list of dogs or any results page with more than 5 results.
 - Add a form to allow a user to apply to adopt a dog if the dog is available.
 - Add a form to allow users to register a dog they found.
@@ -69,7 +71,7 @@ Here's some ideas of how you could continue to grow and build upon what you've d
 
 > [!HINT]
 > We have provided you some prompts in **.github/prompts** folder 
-> You can use directly as direct source or as inspiration for your explorations.
+> you can use directly as direct source or as inspiration for your explorations.
 
 > [!Knowledge] To use a prompt, select **Add Context..** in the chat and then select **Prompt**
 > Learn more about [prompts in Visual Studio Code][vscode-prompts]

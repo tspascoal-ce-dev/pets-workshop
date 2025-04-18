@@ -24,9 +24,10 @@ Adding the filters to the page will require updating a minimum of two files - th
 1. []  Return to Visual Studio Code.
 2. []  Close any tabs you may have open in your VS Code to ensure Copilot chat has an empty context.
 3. []  Enable Auto Save by selecting **File** > **Auto Save**.
-4. []  Open GitHub Copilot Chat.
+4. []  Open or switch to GitHub Copilot Chat.
 5. []  Switch to edit mode by selecting **Edit** in the chat mode dropdown at the bottom of Chat view (should be currently **Ask**)
     - If asked **Changing the chat mode mode will end your current session. Would you like to continue?** click **Yes**
+    - If you were already on Copilot Edit mode, press **+** to start a new chat.
 6. []  If available, select **Claude 3.5 Sonnet** from the list of available models
 7. []  Select **Add Context...** in the chat window.
 8. []  Select **server/app.py** and **client/src/components/DogList.svelte** files (you need to select **Add context** for each file) 
@@ -91,7 +92,7 @@ You've worked with GitHub Copilot to add new features to the website - the abili
 
 ## Workshop review
 
-Over the course of the workshop you explore the core functionality of GitHub Copilot. You saw how to use code completion to get inline suggestions, chat participants to explore your project, Copilot instructions to add context, and Copilot Edits to update multiple files. But there is a lot more in GitHub Copilot (just to name a few):
+Over the course of the workshop you explored the core functionality of GitHub Copilot. You saw how to use code completion to get inline suggestions, chat participants to explore your project, Copilot instructions to add context, and Copilot Edits to update multiple files. But there is a lot more in GitHub Copilot (just to name a few):
 - [Agent mode][copilot-agent]
 - [MCP Servers support][MCP-server]
 - [Extend Copilot][Extensibility-VS-Code]
