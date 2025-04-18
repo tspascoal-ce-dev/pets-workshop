@@ -38,7 +38,7 @@ Let's clone the repository you'll use for the lab.
 2. [] Click on **Clone Repository** button
 3. [] Type `https://github.com/tspascoal-ce-dev/pets-workshop` and press enter.  TODO: fix final URL
 4. [] Select the repository destination folder (suggestion: use the one is automatically shown. The user home folder) by clicking in **Select as Repository Destination** button.
-    - Note: The repository will be cloned to **<selected folder>/pets-workshop**
+    - Note: The repository will be cloned to **SELECTED FOLDER/pets-workshop**
 5. [] Click **Open** button when asked if you **Would like to open the cloned repository?**
 6. [] Click the **Yes, I trust the authors** button when asked.
 
@@ -58,7 +58,7 @@ The startup script will install dependencies and start two applications:
 - The backend Flask app on **http://localhost:5100**. You can see a list of dogs by opening the the url ++http://localhost:5100/api/dogs++
 - The frontend Astro/Svelte app on ++http://localhost:4321++. You can see the by opening that URL.
 
-3. [] Try it now, open a browser and navigate to the links provided above.
+- [] Try it now, open a browser and navigate to the links provided above.
 
 ## Summary and next steps
 
