@@ -61,8 +61,9 @@ You'll also notice there aren't step-by-step instructions here. You've already s
 Here's some ideas of how you could continue to grow and build upon what you've done:
 
 - Return to the API endpoints you updated previously in Flask and add unit tests.
-> [!Knowledge] 
-> The **/tests** slash command can give you a little hand or you can also do it edit mode.
+
+  > [!Knowledge] 
+  > The **/tests** slash command can give you a little hand or you can also do it edit mode.
 
 - Add paging support to the full list of dogs or any results page with more than 5 results.
 - Add a form to allow a user to apply to adopt a dog if the dog is available.
